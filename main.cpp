@@ -36,9 +36,10 @@ int main(){
             //if operation is "ADD"
             if(operation == "ADD"){
             result = operand1 + operand2;
-            cout<< "0x" << hex << "The sum of " << operand1 << "and " << operand2 << "is" << result << endl;
-            }
             
+            cout << hex << "The sum of Ox" << operand1 << " and Ox" << operand2 << " is Ox" << result << endl;
+            }
+
             else if(operation == "AND"){
 
             }
