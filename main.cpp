@@ -38,7 +38,36 @@ int main(){
             result = operand1 + operand2;
             cout<< "0x" << hex << "The sum of " << operand1 << "and " << operand2 << "is" << result << endl;
             }
-            if else(operation == ""){
+            
+            else if(operation == "AND"){
+
+            }
+
+            else if(operation == "ASR"){
+
+            }
+
+            else if(operation == "LSR"){
+
+            }
+
+            else if(operation == "LSL"){
+
+            }
+
+            else if(operation == "NOT"){
+
+            }
+
+            else if(operation == "ORR"){
+
+            }
+
+            else if(operation == "SUB"){
+
+            }
+
+            else if(operation == "XOR"){
 
             }
         }
