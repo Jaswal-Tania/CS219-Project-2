@@ -33,63 +33,62 @@ int main(){
             //storing in an uint32_t variable
             ss2 >> operand2;
 
-            //if operation is "ADD"
-            if(operation == "ADD"){
+            if(operation == "ADD"){ // Add the operands
             result = operand1 + operand2;
 
             cout << hex << "The sum of Ox" << operand1 << " and Ox" << operand2 << " is Ox" << result << endl;
             }
 
-            else if(operation == "AND"){
+            else if(operation == "AND"){ // bitwise AND operation
                     result = operand1 & operand2;
                   
                 // printing result
                 cout << hex << "The AND of Ox" << operand1 << " and Ox " << operand2 << " is Ox" << result << endl;
             }
 
-            else if(operation == "ASR"){
+            else if(operation == "ASR"){ //arithmetic shift right
                  result = operand1 >> 1;
                   
                 // printing result
                 cout << hex << "The ASR of Ox" << operand1 << " is Ox" << result << endl;
             }
 
-            else if(operation == "LSR"){
-                 result = operand1 >>> 1;
+            else if(operation == "LSR"){ // Logical shift right
+                 result = operand1 >> 1;
                   
                 // printing result
                 cout << hex << "The LSR of Ox" << operand1 << " is Ox" << result << endl;
             }
 
-            else if(operation == "LSL"){
-                 result = operand1 <<< 1;
+            else if(operation == "LSL"){ //Logical left shift
+                 result = operand1 << 1;
                   
                 // printing result
                 cout << hex << "The LSL of Ox" << operand1 << " is Ox" << result << endl;
             }
 
-            else if(operation == "NOT"){
+            else if(operation == "NOT"){ //NOt operation- invert the operand
                 result = ~operand1 ;
                   
                 // printing result
                 cout << hex << "The NOT of Ox" << operand1 << " is Ox" << result << endl;
             }
 
-            else if(operation == "ORR"){
+            else if(operation == "ORR"){ // Or operation
                  result = operand1 | operand2;
                   
                 // printing result
                 cout << hex << "The OR of Ox" << operand1 << " and Ox " << operand2 << " is Ox" << result << endl;
             }
 
-            else if(operation == "SUB"){
+            else if(operation == "SUB"){ //subtract the operands
                 result = operand1 - operand2;
                   
                 // printing result
                 cout << hex << "The SUB of Ox" << operand1 << " and Ox " << operand2 << " is Ox" << result << endl;
             }
 
-            else if(operation == "XOR"){
+            else if(operation == "XOR"){ //bitwise exclusive or
                  result = operand1 ^ operand2;
                   
                 // printing result
