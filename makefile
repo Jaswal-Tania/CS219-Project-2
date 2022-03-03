@@ -1,5 +1,5 @@
 # Output exe, can change if you want the output to change.
-OUTPUT = proj1
+OUTPUT = proj2
 
 # Build object files from all cpp files
 .cpp:
